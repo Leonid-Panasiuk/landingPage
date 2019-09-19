@@ -1,0 +1,399 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+*  {
+    box-sizing: border-box;
+    margin: 0 auto;  
+}
+a:hover { text-decoration: none; }
+.banner-full {
+    overflow: hidden;
+}
+.one {
+    background-image: url(../img/slide01.jpg);
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+.two {
+    background-image: url(../img/slide02.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.three {
+    background-image: url(../img/slide03.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;  
+}
+.four {
+    background-image: url(../img/slide04.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.slider > p::after, .hr {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.lorem-head {
+    font-family: "Courier New", monospace;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+.one-slider {
+    font-family: "Courier New", monospace;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+@media (max-width:887px) {
+    .one-slider {
+        font-size: 4em;
+    }
+}
+.slick-dots {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    bottom: 20px;
+}
+.slick-dots li button:before {
+    font-size: 20px;
+    position: absolute;
+    content: '•';
+    color: #f2f2f2;;
+}
+.space {
+    padding-top: 100px;
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+    color: #a6a6a6;
+    height: 900px;
+}
+@media (max-width:790px) {
+    .space {
+        height: auto;
+    }
+}
+.macenas {
+    padding-top: 30px;
+}
+.macenas, .macena-lorem {
+    text-align: center;
+    
+}
+.macena-lorem {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.white-bg {
+    background-color: white;
+    padding: 3rem;
+}
+.gap {
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+}
+.gallery{
+    padding-top: 100px;
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2; 
+    padding-bottom: 100px;
+    text-align: center;
+}
+.gal-txt {
+    padding-bottom: 40px;
+}
+.gal-img {
+    margin: 0 0 2rem;
+    padding: 1rem;
+    background: #FFF;
+}
+.gal-img:hover{
+    opacity: 0.7;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.row img {
+    transition: transform 1s;  
+}
+  
+.container-awesome {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.awesome {
+    font-family: "Courier New", monospace;
+    font-size: 37px;
+    color: white;
+    padding-top: 171px;
+    padding-bottom: 161px;
+    text-align: center;
+}
+.features {
+    font-family: "Courier New", monospace;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 128px;
+}
+@media (max-width:1079px) {
+    .features {
+        display: inline-block;
+    }
+}
+.feature-one, .feature-two, .feature-three, .feature-four{
+    text-align: center;
+}
+.f1, .f2, .f3, .f4 {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    padding-top: 21px;
+    padding-bottom: 36px;
+}
+.f1-text, .f2-text, .f3-text, .f4-text {
+    font-family: "Courier New", monospace;
+    width: 265px;
+    font-size: 15px;
+    padding-bottom: 15px;  
+}
+.blog {
+    background-color: #f3f3f3;
+    padding-top: 164px;
+}
+.lets {
+    font-family: "Courier New", monospace;
+    padding-bottom: 120px;
+    font-size: 37px;
+    text-align: center;
+}
+.love {
+    font-family: "Courier New", monospace;
+    padding-bottom: 77px;
+    font-size: 30px;
+    text-align: center;
+}
+.fresh {
+    font-family: "Courier New", monospace;
+    padding-top: 40px;
+    color: #11749e;
+    font-size: 18px;
+    text-align: center;
+}
+.blog-txt {
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.blue {
+    width: 100%;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 350px;
+}
+
+.content {
+    padding-left: 15px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-blue {
+    width: 69px;
+    height: 69px;
+}
+.blue-text {
+    font-family: "Courier New", monospace;
+    padding-left: 30px;
+    font-size: 15px;
+    color: white;
+}
+@media (max-width:877px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:877px) {
+    .img-blue  {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:877px) {
+    .blue  {
+        height: auto;
+    }
+}
+.container-phone {
+    background-image: url(../img/bg-2.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.fully {
+    float: left;
+    height: 35px;
+    width: 360px;
+    background-color: #11749e;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.hight-q {
+    float: left;
+    height: 35px;
+    width: 380px;
+    background-color: #11749e;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.different {
+    float: left;
+    height: 35px;
+    width: 390px;
+    background-color: #11749e;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.padi {
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.full-width-container {
+    overflow-x: hidden;
+}
+.phone {
+   padding-top: 100px; 
+}
+.akita {
+    padding-top: 220px;
+}
+.cum {
+    padding-top: 40px;
+    padding-bottom: 64px;
+    margin: 0;
+}
+
+#anchor {
+    display: none;
+}
+
+#footer {
+    padding: 4rem 0 2rem 0;
+    background: black;
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+ul.icons li {
+    display: inline-block;
+    padding: 0 1rem 0 0;
+    text-decoration: none;
+}
+ul.icons li .icon:before {
+    font-size: 2rem;
+}
+#footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.links  {
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+}
+.linktop {
+    transition : all 700ms;
+    color: black;
+    padding-left: 25px;
+    font-family: 'Inconsolata', monospace;
+}
+.linktop:hover {
+    transform : scale(.6);
+}
+.fa-user-astronaut, .fa-user-circle{
+    color: #11749e;
+}
+
+.button, .button-1 {
+    background: gray;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;  
+}
+  
+.text, .text-1 {
+   height: 88px;
+}
+.button:hover {
+    background: darkseagreen;
+}
+.button-1 {
+    background: cornflowerblue;
+}
+
+.bg-scroll {
+    background-image: url(../img/bg-scrolljpg.jpg);
+    background-attachment: fixed;
+}
+.text-scroll {
+    color: white;
+    padding: 50px;
+}
+.animate {
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+.fixed {
+font-size: 11px;
+top: 10px;
+right: 0px;
+color: purple;
+position: fixed;
+z-index: 1;
+background: transparent;
+width: 40px;
+text-align: center;
+height: 40px;
+border-radius: 50%;
+border: double 4px purple;
+transition: 1s;
+overflow: hidden;
+}
+.fixed:hover {
+transform: rotateY(360deg);
+transform: rotateY(360deg);
+transform: rotateY(360deg);
+transform: rotateY(360deg); 
+transform: rotateY(360deg); 
+transform: rotateY(360deg); 
+}
+
+
